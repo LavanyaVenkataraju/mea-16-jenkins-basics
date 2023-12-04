@@ -1,1 +1,1 @@
-Edited via Github
+echo "Edited via Github"
