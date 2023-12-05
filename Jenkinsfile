@@ -24,6 +24,7 @@ pipeline {
             steps {
 
                sh '''
+               echo "inside run block"
                sh ./run.sh
                '''
                     }
