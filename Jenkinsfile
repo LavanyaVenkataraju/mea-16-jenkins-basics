@@ -33,8 +33,8 @@ pipeline {
         }  // Closes Stage block
         post {
             always {
-                archiveArtifacts # '*.zip'
-                   }
+                archiveArtifacts '*.zip'
+                              }
              }
     }
       
